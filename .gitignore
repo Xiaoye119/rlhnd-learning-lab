@@ -1,0 +1,18 @@
+# Local research downloads and processing records
+/sources/
+/work/
+/notes/*
+!/notes/验收记录.md
+
+# Generated distribution archives (source and standalone HTML are tracked)
+/outputs/*.zip
+
+# Local environments, caches and credentials
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

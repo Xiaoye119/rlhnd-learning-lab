@@ -1,0 +1,123 @@
+[
+  {
+    "paper": "2606.17846v2",
+    "figure": "S2.F1",
+    "pages": [
+      5
+    ],
+    "url": "https://arxiv.org/html/2606.17846v2/h2r_pipeline.png",
+    "path": "assets\\2606.17846-h2r_pipeline.png",
+    "caption": "Figure 1: Human-to-robot data synthesis pipeline. (Top) Given egocentric video, the pipeline performs action retargeting and smoothing, SAM3-based hand segmentation, ProPainter inpainting, base pose search with MuJoCo IK, and depth-guided compositing. (Bottom) ∼ \\sim 1,933h of egocentric data from 3 sources is rendered across 15 robot morphologies, yielding ∼ \\sim 24,808h of synthesized demonstrations."
+  },
+  {
+    "paper": "2606.17846v2",
+    "figure": "S2.F2",
+    "pages": [
+      6
+    ],
+    "url": "https://arxiv.org/html/2606.17846v2/data_preprocess.png",
+    "path": "assets\\2606.17846-data_preprocess.png",
+    "caption": "Figure 2: Multi-stage data curation pipeline. Five-stage state-action signal filtering (sudden change, trend alignment, extreme value removal, FK consistency, and base-frame alignment) followed by three cross-modal quality checks (instruction consistency, video-state consistency, and video quality filtering)."
+  },
+  {
+    "paper": "2608.02580v1",
+    "figure": "S1.F1",
+    "pages": [
+      2
+    ],
+    "url": "https://arxiv.org/html/2608.02580v1/fig1_ego2r_pipeline.png",
+    "path": "assets\\2608.02580-fig1_ego2r_pipeline.png",
+    "caption": "Figure 1: Ego2Robot pipeline. Converting egocentric video into 18,561h robot training data across 15 morphologies through action alignment, visual alignment, and quality curation."
+  },
+  {
+    "paper": "2610.09455v1",
+    "figure": "S3.F2",
+    "pages": [
+      4
+    ],
+    "url": "https://arxiv.org/html/2610.09455v1/fig_structure.png",
+    "path": "assets\\2610.09455-fig_structure.png",
+    "caption": "Figure 2: RLHND overview. A pre-trained Cosmos 3 backbone receives the clip through its conditioning-frame interface and is adapted with a trainable patch embedding and LoRA adapters.\nThe pose expert stream, trained in stage-1, yields MANO parameters and a metric camera-space translation\nwhile the tactile expert stream is trained in stage-2 with the pose stream frozen."
+  },
+  {
+    "paper": "2610.09455v1",
+    "figure": "S4.F4",
+    "pages": [
+      7
+    ],
+    "url": "https://arxiv.org/html/2610.09455v1/fig_qualitative_tactile.png",
+    "path": "assets\\2610.09455-fig_qualitative_tactile.png",
+    "caption": "Figure 4: Qualitative comparison of contact and force estimation. We visualize the contact (left) and force (right) estimation from OpenTouch (first to third row) and PVDB (fourth row)."
+  },
+  {
+    "paper": "2610.09455v1",
+    "figure": "A1.F5",
+    "pages": [
+      17
+    ],
+    "url": "https://arxiv.org/html/2610.09455v1/fig_beta_cache.png",
+    "path": "assets\\2610.09455-fig_beta_cache.png",
+    "caption": "Figure 5: 𝜷 \\bm{\\beta} -cache inference on a test recording. Left hand of a HOT3D Aria test recording decoded in 81 81 -frame windows. Seven evenly spaced frames are shown per window, with the strip below marking frame-level presence or absence and triangles indicating the displayed frames. Windows whose visibility stays under T v T_{v} are held back . The left hand first exceeds T v T_{v} in window 4, so its shape becomes 𝜷 cache \\bm{\\beta}_{\\mathrm{cache}} and windows 1–3 are decoded again; the right hand is cached from window 1."
+  },
+  {
+    "paper": "2610.09455v1",
+    "figure": "A1.F6",
+    "pages": [
+      17,
+      18
+    ],
+    "url": "https://arxiv.org/html/2610.09455v1/fig_signed_distance.png",
+    "path": "assets\\2610.09455-fig_signed_distance.png",
+    "caption": "Figure 6: Contact label differences between distance threshold and signed distance. Contact labels from the conventional unsigned distance (middle) and our signed distance (right) on two DexYCB grasps.\nWe denote the contacted vertices with the red mark."
+  },
+  {
+    "paper": "2610.09455v1",
+    "figure": "A1.F8",
+    "pages": [
+      25
+    ],
+    "url": "https://arxiv.org/html/2610.09455v1/fig_dpp_contact_strip.png",
+    "path": "assets\\2610.09455-fig_dpp_contact_strip.png",
+    "caption": "Figure 8: Automatic contact labels from RLHND. We denote vertices whose predicted contact probability exceeds 0.5 0.5 as teal .\nThe strips below each row show the frame-level contact labels for the right (R) and left (L) hands, obtained by thresholding the mean contact probability over the fingertip vertices at 0.5 0.5 .\nTriangles mark the displayed frames and percentages indicate the fraction of frames labeled as contact."
+  },
+  {
+    "paper": "2610.41877v1",
+    "figure": "S1.F2",
+    "pages": [
+      3
+    ],
+    "url": "https://arxiv.org/html/2610.41877v1/data_pipeline.png",
+    "path": "assets\\2610.41877-data_pipeline.png",
+    "caption": "Figure 2: Overview of the Movens-5M data construction pipeline. Raw web videos are segmented and filtered, semantically annotated, and reconstructed as SMPL-family estimates canonicalized to SMPL-X. Closed-loop physical refinement, humanoid retargeting, and tracking verification produce high-quality, executable humanoid motions."
+  },
+  {
+    "paper": "2610.41877v1",
+    "figure": "S3.F3",
+    "pages": [
+      6
+    ],
+    "url": "https://arxiv.org/html/2610.41877v1/data_augmentation.png",
+    "path": "assets\\2610.41877-data_augmentation.png",
+    "caption": "Figure 3: Overview of our data-augmentation pipeline. Text design expands motion conditions through category-preserving rewriting, long-\nhorizon composition, and targeted extreme-motion design; Movens-Zero synthesizes the corresponding robot trajectories; and closed-loop\ntracking with semantic-consistency verification retains executable caption–motion pairs."
+  },
+  {
+    "paper": "2611.06817v3",
+    "figure": "S2.F2",
+    "pages": [
+      5
+    ],
+    "url": "https://arxiv.org/html/2611.06817v3/data_overview.png",
+    "path": "assets\\2611.06817-data_overview.png",
+    "caption": "Figure 2 : Construction of Open-HumanWAM-50K. (a) Five data sources and their retained durations. (b) Data curation based on hand visibility, motion stability, and manipulation activity. (c) Cross-source alignment of camera frames, wrist axes, and gripper openness."
+  },
+  {
+    "paper": "2611.06817v3",
+    "figure": "S5.F16",
+    "pages": [
+      26
+    ],
+    "url": "https://arxiv.org/html/2611.06817v3/humanwam-goal_arch.png",
+    "path": "assets\\2611.06817-humanwam-goal_arch.png",
+    "caption": "Figure 16 : HumanWAM-Goal architecture. (a) Conditioning. An explicit goal image augments language instructions, current and optional historical observations, and the 49-D robot state.\n(b) Joint rectified-flow sampling. With conditioning tokens held fixed, the shared video-action Generator iteratively predicts video and action velocities via UniPC updates."
+  }
+]
